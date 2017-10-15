@@ -1,0 +1,29 @@
+/*
+Theme Name: La Valette
+Author: Akamis
+Author URI: http://akamis.eu
+Description: Notre premier thème WordPress !
+*/
+
+html{
+	background-image: url("img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+div#header{
+		height: 150px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+}
+
+div#menu{
+	height: 120px;
+	width: 1200px;
+	background-color: black;
+	margin-top: 10px;
+
+
+}
