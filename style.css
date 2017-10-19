@@ -5,6 +5,18 @@ Author URI: http://akamis.eu
 Description: Notre premier thème WordPress !
 */
 
+@font-face {
+    font-family: 'punklandregular';
+    src: url('punkland-webfont.eot');
+    src: url('punkland-webfont.eot?#iefix') format('embedded-opentype'),
+         url('punkland-webfont.woff2') format('woff2'),
+         url('punkland-webfont.woff') format('woff'),
+         url('punkland-webfont.svg#punklandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html{
 	background-image: url("img/bg.jpg");
 	background-repeat: no-repeat;
@@ -19,11 +31,26 @@ div#header{
 		justify-content: center;
 }
 
-div#menu{
+div#main_menu{
 	height: 120px;
 	width: 1200px;
 	background-color: black;
 	margin-top: 10px;
+	display: flex;
+}
 
+ul{
+	list-style-type: none;
+	display: flex;
+	width: 1200px;
+	flex-wrap: wrap;
+	justify-content: space-between;
 
+}
+a{
+	color : #ff462a;
+	font-size: 40px;
+	text-decoration: none;
+	font-family: 'punklandregular';
+	font-style: normal;
 }
